@@ -28,7 +28,7 @@ export function Footer() {
         <div>
           <h4 className="text-sm uppercase tracking-widest text-gold mb-4">Visit</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li className="flex gap-2"><MapPin className="w-4 h-4 text-gold mt-0.5 shrink-0" /> Bellary, Karnataka</li>
+            <li className="flex gap-2"><MapPin className="w-4 h-4 text-gold mt-0.5 shrink-0" /> State Highway 19, Infantry Road, opp. Kumara Swamy Temple, Ballari, Karnataka 583103</li>
             <li className="flex gap-2"><Phone className="w-4 h-4 text-gold mt-0.5 shrink-0" /> Open today</li>
           </ul>
         </div>
