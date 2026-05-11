@@ -67,6 +67,22 @@ function Contact() {
           </button>
         </form>
       </section>
+
+      <section className="max-w-7xl mx-auto px-6 pb-24">
+        <div className="rounded-3xl overflow-hidden border border-border/60 shadow-elegant">
+          <iframe
+            title="Santosh Furnishing location"
+            src="https://www.google.com/maps?q=Santosh+Furnishing+Curtain+Sleepwell+Mattress+Wallpaper+Store,+State+Highway+19,+Infantry+Road,+Ballari,+Karnataka+583103&output=embed"
+            width="100%"
+            height="450"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="block w-full border-0"
+            allowFullScreen
+          />
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
