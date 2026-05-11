@@ -29,7 +29,7 @@ function Contact() {
           </p>
 
           <div className="space-y-5">
-            <Item icon={MapPin} label="Address" value="Bellary, Karnataka, India" />
+            <Item icon={MapPin} label="Address" value="State Highway 19, Infantry Road, opp. Kumara Swamy Temple, Ballari, Karnataka 583103" />
             <Item icon={Clock} label="Hours" value="Open today · Mon–Sun" />
             <Item icon={Phone} label="Call us" value="Tap to dial from Google" />
             <Item icon={Star} label="Rating" value="4.9 ★ from 819+ reviews" />
