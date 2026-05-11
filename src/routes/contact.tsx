@@ -34,6 +34,15 @@ function Contact() {
             <Item icon={Phone} label="Call us" value="Tap to dial from Google" />
             <Item icon={Star} label="Rating" value="4.9 ★ from 819+ reviews" />
           </div>
+
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=Santosh+Furnishing+Curtain+Sleepwell+Mattress+Wallpaper+Store+Ballari"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-flex items-center gap-2 text-sm text-gold hover:underline"
+          >
+            Get directions →
+          </a>
         </div>
 
         <form className="rounded-3xl border border-border/60 bg-card p-8 md:p-10 space-y-5 h-fit">
