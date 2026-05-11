@@ -34,6 +34,15 @@ function Contact() {
             <Item icon={Phone} label="Call us" value="Tap to dial from Google" />
             <Item icon={Star} label="Rating" value="4.9 ★ from 819+ reviews" />
           </div>
+
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=Santosh+Furnishing+Curtain+Sleepwell+Mattress+Wallpaper+Store+Ballari"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-flex items-center gap-2 text-sm text-gold hover:underline"
+          >
+            Get directions →
+          </a>
         </div>
 
         <form className="rounded-3xl border border-border/60 bg-card p-8 md:p-10 space-y-5 h-fit">
@@ -58,6 +67,22 @@ function Contact() {
           </button>
         </form>
       </section>
+
+      <section className="max-w-7xl mx-auto px-6 pb-24">
+        <div className="rounded-3xl overflow-hidden border border-border/60 shadow-elegant">
+          <iframe
+            title="Santosh Furnishing location"
+            src="https://www.google.com/maps?q=Santosh+Furnishing+Curtain+Sleepwell+Mattress+Wallpaper+Store,+State+Highway+19,+Infantry+Road,+Ballari,+Karnataka+583103&output=embed"
+            width="100%"
+            height="450"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="block w-full border-0"
+            allowFullScreen
+          />
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
